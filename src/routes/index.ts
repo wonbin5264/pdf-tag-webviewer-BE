@@ -1,9 +1,9 @@
 import { Router } from 'express';
 
-const router = Router();
+const indexRouter = Router();
 
-router.get('/', (_, res) => {
+indexRouter.get('/', (_, res) => {
   res.send('Pdf Webviewer Used Tag');
 });
 
-export default router;
+export default indexRouter;
