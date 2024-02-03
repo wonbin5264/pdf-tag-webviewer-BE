@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "es2016",
+
+    /* Modules */
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitReturns": false,
+    "strictPropertyInitialization": false,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@routes/*": ["src/routes/*"],
+    },
+  },
+}
